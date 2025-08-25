@@ -34,7 +34,8 @@ img {
     h2 {
         font-size: clamp(1rem, 2.125vw, 2.125rem);
         font-weight: 400;
-        margin: 0 0 1rem;
+        margin: 0;
+        margin-bottom: clamp(1rem, 2.125vw, 2rem);
     }
 
     p {
