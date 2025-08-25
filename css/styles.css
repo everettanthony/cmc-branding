@@ -25,21 +25,21 @@ img {
     overflow: hidden;
 
     h1 {
-        font-size: clamp(1.4rem, 3vw, 3rem);
+        font-size: clamp(1.4rem, -0.077rem + 4.103vw, 3rem);
         font-weight: 700;
         line-height: 1.125em;
         margin: 0;
     }
 
     h2 {
-        font-size: clamp(1rem, 2.125vw, 2.125rem);
+        font-size: clamp(1rem, -0.038rem + 2.885vw, 2.125rem);
         font-weight: 400;
         margin: 0;
-        margin-bottom: clamp(1rem, 2.125vw, 2rem);
+        margin-bottom: clamp(1rem, -0.215rem + 2.532vw, 2rem);
     }
 
     p {
-        font-size: clamp(.9rem, 0.435rem + 1vw, 1.25rem);
+        font-size: clamp(.9rem, 0.475rem + 0.886vw, 1.25rem);
         margin: 0;
 
         &:not(:last-child) {
@@ -134,14 +134,14 @@ img {
 
     .grid-title {
         color: #00b37d;
-        font-size: clamp(1.145rem, 0.719rem + 1.136vw, 1.5rem);
+        font-size: clamp(1.145rem, 0.714rem + 0.899vw, 1.5rem);
         font-weight: 700;
         margin-bottom: .3rem;
     }
 
     .grid-desc {
         color: #231f20;
-        font-size: clamp(.9rem, 0.553rem + 1.052vw, 1.125rem);
-        line-height: clamp(1.25em, 0.553rem + 1.052vw, 1.35em);
+        font-size: clamp(.9rem, 0.627rem + 0.57vw, 1.125rem);
+        line-height: clamp(1.25em, 0.079rem + 0.041vw, 1.35em);
     }
 }
